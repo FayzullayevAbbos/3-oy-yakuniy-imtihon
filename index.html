@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shortly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container flex items-center justify-between pad-48">
+        <div class="flex items-center gh g-45">
+          <img src="images/svg/logo.svg" alt="logo" />
+          <ul class="flex none items-center g-30">
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Resources</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__btn flex g-37 none items-center">
+          <a href="#">Login</a>
+          <button class="btn btn-top">Sign up</button>
+        </div>
+
+        <div class="right__menu">
+          <label for="check">
+            <img class="menu" src="images/svg/menu.svg" alt="" />
+          </label>
+          <input type="checkbox" id="check" />
+
+          <div class="checked container">
+            <ul class="flex flex-col items-center g-30">
+              <li>
+                <a href="#">Features</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Resources</a>
+              </li>
+            </ul>
+            <div class="nav__btn flex flex-col g-37 items-center">
+              <a href="#">Login</a>
+              <button class="btn btn-top">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="hero container flex items-center">
+        <div class="hero-b flex flex-col justify-center">
+          <h1 class="h1">More than just shorter links</h1>
+          <p class="p">
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button class="btn btn-body">Get Started</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container while-hover">
+        <!-- -------------------------form ----------------------->
+        <form action="goole.ru" class="flex justify-between items-center g-24">
+          <div class="input flex items-center justify-start">
+            <input
+              type="email"
+              required
+              id="email"
+              placeholder="Shorten a link here..."
+            />
+          </div>
+          <button type="submit" class="btn">Shorten It!</button>
+        </form>
+
+        <!-- -------------------------------while-hover------------------------- -->
+        <div class="container hover">
+          <div class="container flex items-center justify-between">
+            <a class="hiddin_phone" href="https://www.frontendmentor.io"
+              >https://www.frontendmentor.io</a
+            >
+            <a class="block" href="https://www.frontendmentor.io"
+              >https://www.frontendmentor..</a
+            >
+            <div class="flex items-center g-24">
+              <a class="col-btn" href="https://rel.ink/k4lKyk"
+                >https://rel.ink/k4lKyk</a
+              >
+
+              <button class="btn">Copy</button>
+            </div>
+          </div>
+          <div class="container flex items-center justify-between">
+            <a class="block" href="https://twitter.com/frontendmentor"
+              >https://twitter.com/frontend..</a
+            >
+            <a class="hiddin_phone" href="https://twitter.com/frontendmentor"
+              >https://twitter.com/frontendmentor</a
+            >
+            <div class="flex items-center g-24">
+              <a class="col-btn" href="https://rel.ink/gxOXp9"
+                >https://rel.ink/gxOXp9</a
+              >
+              <button class="btn">Copy</button>
+            </div>
+          </div>
+          <div class="container flex items-center justify-between">
+            <a
+              class="block"
+              href="https://www.linkedin.com/company/frontend-mentor"
+              >https://www.linkedin.com/comp..</a
+            >
+            <a
+              class="hiddin_phone"
+              href="https://www.linkedin.com/company/frontend-mentor"
+              >https://www.linkedin.com/company/frontend-mentor</a
+            >
+            <div class="flex items-center g-24">
+              <a class="col-btn" href="https://rel.ink/gob3X9"
+                >https://rel.ink/gob3X9</a
+              >
+              <button class="btn">Copy</button>
+            </div>
+          </div>
+
+          <!-- ------------------. -------------------------------->
+        </div>
+      </div>
+      <div class="">
+        <div class="mb-12">
+          <div
+            class="container flex flex-col items-center justify-center mb-100"
+          >
+            <h2 class="h2">Advanced Statistics</h2>
+            <p class="p-1 text-center">
+              Track how your links are performing across the web with our
+              advanced statistics dashboard.
+            </p>
+          </div>
+          <div class="grid container">
+            <div
+              class="flex flex-col items-start justify-center mb-88 pad-32-41"
+            >
+              <img src="./images/svg/feature1.svg" alt="" />
+              <h3 class="h3">Brand Recognition</h3>
+              <p class="p-2">
+                Boost your brand recognition with each click. Generic links
+                don’t mean a thing. Branded links help instil confidence in your
+                content.
+              </p>
+            </div>
+            <div
+              class="flex flex-col items-start justify-center mt-44 pad-32-41"
+            >
+              <img src="./images/svg/feature2.svg" alt="" />
+              <h3 class="h3">Detailed Records</h3>
+              <p class="p-2">
+                Gain insights into who is clicking your links. Knowing when and
+                where people engage with your content helps inform better
+                decisions.
+              </p>
+            </div>
+            <div
+              class="flex flex-col items-start justify-center mt-88 pad-32-41"
+            >
+              <img src="./images/svg/feature3.svg" alt="" />
+              <h3 class="h3">Fully Customizable</h3>
+              <p class="p-2">
+                Improve brand awareness and content discoverability through
+                customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__b flex flex-col items-center justify-center">
+        <h3 class="h2">Boost your links today</h3>
+        <button class="btn-body btn">Get Started</button>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer flex justify-between items-start">
+        <img src="images/svg/logo2.svg" alt="logo" />
+        <div class="flex links g-100">
+          <div class="flex link__link justify-between items-start g-78">
+            <div class="flex flex-col g-10">
+              <a href="#" class="head">Features</a>
+              <a href="#" class="body">Analytics</a>
+              <a href="#" class="body">Branded Links</a>
+              <a href="#" class="body">Link Shortening</a>
+            </div>
+
+            <div class="flex flex-col g-10">
+              <a href="#" class="head">Resources</a>
+              <a href="#" class="body">Blog</a>
+              <a href="#" class="body">Developers</a>
+              <a href="#" class="body">Support</a>
+            </div>
+            <div class="flex flex-col g-10">
+              <a href="#" class="head">Company</a>
+              <a href="#" class="body">About</a>
+              <a href="#" class="body">Our Team</a>
+              <a href="#" class="body">Careers</a>
+              <a href="#" class="body">Contact</a>
+            </div>
+          </div>
+          <div class="social flex g-24 items-start">
+            <img src="./images/svg/soci.svg" alt="" />
+            <img src="./images/svg/soci1.svg" alt="" />
+            <img src="./images/svg/face.svg" alt="" />
+            <img src="./images/svg/soci3.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

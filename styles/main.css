@@ -1,0 +1,253 @@
+header a,
+main a {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--font-col-p);
+}
+header a:hover,
+main a:hover {
+  color: var(--font-col-h);
+}
+.btn-top {
+  padding: 9px 23px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+}
+.btn-body {
+  padding: 1.4rem 4rem;
+  font-size: 2rem;
+  color: var(--white);
+  font-weight: 700;
+  max-width: 19.7rem;
+}
+.btn:hover,
+.btn-body:hover {
+  background: var(--hover-btn);
+}
+.h1 {
+  max-width: 59rem;
+  color: var(--font-col-h);
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 90px; /* 112.5% */
+  letter-spacing: -2px;
+}
+.h2 {
+  max-width: 59rem;
+  color: var(--font-col-h);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 90px; /* 112.5% */
+  letter-spacing: -2px;
+}
+.h3 {
+  color: var(--font-col-h);
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.p {
+  font-size: 2.2rem;
+  max-width: 54rem;
+  color: var(--font-col-p);
+  font-weight: 500;
+}
+.p-1 {
+  font-size: 1.8rem;
+  max-width: 54rem;
+  color: var(--font-col-p);
+  font-weight: 500;
+}
+.p-2 {
+  font-size: 1.5rem;
+
+  color: var(--font-col-p);
+  font-weight: 500;
+}
+header {
+  position: relative;
+}
+.hero .p {
+  margin-bottom: 3.8rem;
+}
+nav {
+  height: 17vh;
+}
+.hero {
+  height: 83vh;
+  background: url("../images/png/hero-bg\ \(1\).png") no-repeat right center;
+  background-size: var(--img);
+  --img: 60rem;
+}
+
+.img-bg {
+  width: 633px;
+  height: 482px;
+}
+
+
+.menu {
+  display: none;
+}
+/* --------------------form------------- */
+form {
+  background: url("../images/png/butt-left.png") no-repeat bottom left,
+    url("../images/png/batt-right.png") no-repeat right top var(--bg-m);
+    padding: 5.2rem 6.5rem;
+    border-radius: 1rem;
+    transform: translateY(-50%);
+}
+form .input {
+  width: 76rem;
+  background: #fff;
+  height: 6.4rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+form input{
+  outline: none;
+  width: 30rem;
+  border: none;
+  height: inherit;
+}
+[placeholder="Shorten a link here..."]{
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--font-col-p);
+  padding: 0 3.2rem ;
+}
+form .btn{
+  color: var(--white);
+  font-size: 2rem;
+ font-weight: 700;
+
+ width: 19rem;
+ border-radius: 1rem;
+ height: 64px;
+}
+.hover > div {
+  background: #fff;
+  height: 7.2rem;
+  padding: 0 2.4rem 0 3.2rem;
+  margin-bottom: 1.6rem;
+  border-radius: 5px;
+}
+.hover a {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.hover .btn{
+  padding: 1rem 3.1rem 0.7rem;
+  font-size: 15px;
+  color: var(--white);
+}
+.col-btn{
+  color: var(--btn);
+}
+.hover{
+  display: none;
+  margin-top: -5rem;
+  
+}
+.while-hover:hover > .hover{
+  display: block;
+}
+
+.hiddin_phone{
+  display: block;
+}
+.block{
+  display: none;
+}
+
+
+main {
+  background: var(--bg);
+}
+.grid > div {
+  gap: 1.6rem;
+  max-width: 35rem;
+  position: relative;
+}
+.grid {
+  display: flex;
+  flex-wrap: nowrap wrap;
+  position: relative;
+  gap: 3rem;
+}
+.grid img {
+  background: var(--bg-m);
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.h3 {
+  margin-top: 2rem;
+}
+.mt-44 {
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+.mt-88 {
+  margin-top: 88px;
+}
+.mb-88 {
+  margin-bottom: 88px;
+  position: relative;
+}
+.mb-88::after {
+  content: "";
+  width: 3rem;
+  height: 8px;
+  background: var(--btn);
+  position: absolute;
+  right: -3rem;
+}
+.mt-44::after {
+  content: "";
+  width: 3rem;
+  height: 8px;
+  background: var(--btn);
+  position: absolute;
+  right: -3rem;
+}
+.mb-12 {
+  margin-bottom: 12rem;
+}
+.main__b .h2 {
+  color: #fff;
+}
+.main__b {
+  padding: 40px;
+  background: url("../images/png/group2-1.png") no-repeat left top,
+    url("../images/png/group2-2.png") no-repeat left bottom,
+    url("../images/png/group2-3.png") no-repeat right top var(--bg-m);
+}
+footer {
+  background: var(--footer);
+  padding: 7.2rem;
+}
+.head {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.body {
+  color: var(--font-col-p);
+  font-size: 15px;
+}
+.body:hover {
+  color: var(--btn);
+}
+
+.g-100 {
+  gap: 10rem;
+}
+.g-78 {
+  gap: 78px;
+}
+.g-10 {
+  gap: 1rem;
+}
