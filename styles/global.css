@@ -128,5 +128,9 @@ html {
  .right__menu:hover > .checked{
   display: block;
 }
+.right__menu{
+  display: none;
+}
+
 
 

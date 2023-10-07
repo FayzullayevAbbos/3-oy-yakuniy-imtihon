@@ -74,6 +74,9 @@
 
 
   }
+  .right__menu{
+    display: block;
+  }
 }
 
 /* ---------------895------------- */
@@ -103,6 +106,9 @@
     border-radius: 10px;
 
 
+  }
+  .right__menu{
+    display: block;
   }
   .right__menu{
     display: block;
@@ -231,7 +237,9 @@
     padding: 0;
     text-align: center;
   }
-  
+  .right__menu{
+    display: block;
+  }
   
 }
 /* ---------------------660 for mobile-------------------- */
@@ -243,6 +251,8 @@
     display: block;
   }
 
-
+  .right__menu{
+    display: block;
+  }
 
 }
